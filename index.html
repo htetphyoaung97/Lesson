@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lesson</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+    <div class="main" style="display: flex; justify-content: center; align-items: center;">
+
+        <div class="shooes">
+            <div class="logo">
+                <img src="images/logo.png" alt="Nike Logo">
+                <span class="share-icon"><i class="fas fa-share-alt"></i></span>
+            </div>
+            <div class="brand" style="text-align: center;">
+                <h1>NIKE</h1>
+            </div>
+            <div class="shooe-color">
+                <img src="images/black.png" alt="Nike" style="display: block;">
+            
+                <img src="images/blue.png" alt="Nike">
+            
+                <img src="images/green.png" alt="Nike">
+            
+                <img src="images/orange.png" alt="Nike">
+
+                <img src="images/red.png" alt="Nike">
+            </div>
+        </div>
+        <div class="choose-color">
+
+            <div class="shoe-name">
+                <div class="shooe-review">
+                    <h1>Nike Zoom KD 12</h1><span class="brand-name">New</span>
+                </div>
+                <div class="shoe">
+                    <h3>Men's Running Shoes</h3>
+                </div>
+            </div>
+            <div class="production" style="border-bottom: 2px solid; border-color: silver">
+                <h2 style="text-transform: uppercase; margin-bottom: 0px;">production Info</h2 style="text-transform: uppercase;">
+                <p style="color: hsl(0, 3%, 21%);">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum mi ultrices pellentesque posuere
+                </p>
+            </div>
+            <div class="shoe-colour" style="border-bottom: 2px solid; border-color: silver">
+                <h3 style="text-transform: uppercase;">colour</h3>
+                <div style="display: flex;margin-bottom: 10px;" class="hover-transform">
+                    <span onclick='changeImage("images/black.png")' class="shoe-color" id="bgBlack" style="width:30px;height: 30px; background-color:black; border-radius: 50%;margin-right: 5px;cursor: pointer;"></span>
+                    <span onclick='changeImage("images/blue.png")' class="shoe-color" id="bgBlue" style="width:30px;height: 30px; background-color:blue; border-radius: 50%;margin-right: 5px;cursor: pointer;"></span>
+                    <span onclick='changeImage("images/green.png")' class="shoe-color" id="bgGreen" style="width:30px;height: 30px; background-color:green; border-radius: 50%;margin-right: 5px;cursor: pointer;"></span>
+                    <span onclick='changeImage("images/orange.png")' class="shoe-color" id="bgOrange" style="width:30px;height: 30px; background-color:orange; border-radius: 50%;margin-right: 5px;cursor: pointer;"></span>
+                    <span onclick='changeImage("images/red.png")' class="shoe-color" id="bgRed" style="width:30px;height: 30px; background-color:red; border-radius: 50%;cursor: pointer;"></span>
+                </div>
+            </div>
+            <div class="shoe-size-wapper" style="border-bottom: 2px solid; border-color: silver">
+                <h3 style="text-transform: uppercase;">size</h3>
+                <div style="display: flex;margin-bottom: 10px;">
+                    <span class="shoe-size">7</span>
+                    <span class="shoe-size">8</span>
+                    <span class="shoe-size">9</span>
+                    <span class="shoe-size">10</span>
+                    <span class="shoe-size">11</span>
+                </div>
+            </div>
+            <div class="add-to-card" style="margin-top: 10px;display: inline-flex; justify-content: center;align-items: center;">
+                <button style="cursor: pointer;" class="add-to-card-button"><span><i class="fas fa-shopping-cart"></i></span> Add To Card</button>
+                <h3>$ 188.9</h3>
+            </div>
+
+        </div>
+
+    </div>
+  
+    
+    <script src="js/app.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>

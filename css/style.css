@@ -1,0 +1,148 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.shooes {
+    position: relative;
+    height: 480px;
+    background:linear-gradient(45deg, black, transparent);
+
+}
+
+.shooe-color img {
+    width: 623px;
+    display: none;
+    transform: rotate3d(1, 2, 3, -25deg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.logo {
+    padding: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo span {
+    position: absolute;
+    right: 35px;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: aliceblue;
+    align-items: center;
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
+    height: 50px;
+    display: block;
+    transform: none;
+}
+
+.brand h1 {
+    font-family: sans-serif;
+    opacity: .1;
+    font-size: 185px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 0;
+}
+
+.choose-color {
+    height: auto;
+    padding: 35px;
+    font-family: sans-serif;
+    width: 325px;
+    background-color: floralwhite;
+    box-shadow: 7px 9px 8px darkgrey;
+}
+
+.shoe-name {
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-color: silver;
+}
+
+.shooe-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shooe-review h1 {
+    display: inline;
+    margin: 0;
+}
+
+.shooe-review span {
+    padding:5px 10px;
+    background-color: #1253e0;
+    color: mintcream;
+    border-radius: 10%;
+    margin-left: 8px;
+}
+
+.shoe h3 {
+    margin: 0px;
+}
+
+.shoe-colours {
+    width:15px !important;
+    height: 15px !important;
+    border: 8px solid;
+    border-color:#e8e1e1 ;
+}
+
+.shoe-size-wapper span {
+    transition: .5s;
+}
+
+.shoe-size-wapper span:hover {
+    background-color:rgb(20, 95, 235)!important;
+    color: white;
+}
+
+.size-active {
+    background-color: rgb(20, 95, 235)!important;
+    color: white;
+    z-index: 10;
+}
+
+.add-to-card button {
+    padding: 10px 25px;
+    background-color: #0066ff;
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    transition: .5s;
+}
+
+.add-to-card button:hover {
+    background-color: blue;
+}
+
+.add-to-card h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 53px;
+}
+
+.shoe-size {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:1px solid;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(202, 197, 197);
+    cursor:pointer;
+    margin-right: 10px;
+}
